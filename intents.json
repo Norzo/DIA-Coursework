@@ -1,0 +1,75 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hello", "Are you there?", "Am I all alone?", "Hello there", "Hi there", "Greetings"],
+     "responses": ["Hello, how may I help you?", "Hello there!", "Salutations", "Good to see you!"],
+     "context": [""]
+   },
+   {"tag": "football",
+    "patterns": ["Do you know anything about sports?", "Football", "Soccer"],
+    "responses": ["Not much, but I know Ronaldo knows his stuff!", "I miss Ronaldinho.", "The thing about Liverpool is that they just walk it in!"],
+    "context": [""]
+   },
+   {"tag": "howdoudo",
+    "patterns": ["How are you", "How is your day", "How do you do", "How fares thee day"],
+    "responses": ["I'm doing well, thank you for asking! How are you doing?", "The days go by one by one as you know. How do you do?", "I'm feelin some type of way. How are you?"],
+    "context": [""]
+   },
+   {"tag": "howdoidogood",
+    "patterns": ["I'm doing well, thank you", "Doing just fine", "I'm alright", "I'm also feelin some type of way", "Great!"],
+    "responses": ["I'm glad to hear that!", "That's good to hear.", "Glad I'm not the only one with a fine day!", "I hope your day remains that way!"],
+    "context": [""]
+   },
+   {"tag": "howdoidobad",
+    "patterns": ["I'm not doing well", "Not good", "Today is a bad day", "I'm feeling down"],
+    "responses": ["Oh, that's not good, I'm not the best conversationalist, but feel free to talk about it.", "I'm sorry to hear that, I may be a bot, but a human made me, and do know that we are here for you.", "You know, I think I know just the thing. A glass of wine to help with the mood?"],
+    "context": [""]
+   },
+   {"tag": "genwine",
+     "patterns": ["What is wine", "Tell me about wine", "I don't know anything about wine", "What can you tell me about wine?"],
+     "responses": ["Wine is an alcoholic beverage, usually ranging from 10% - 20% alcohol in each bottle. After the fermentation process, it is essentially fermented grape juice. Wine can be both expensive and cheap, it all depends on the year it's made, the grapes it's made from, and where it's from. You have red wine, white wine, orange wine, rose wine and sparkly wine. Wine goes excellently with different types of food."],
+     "context": [""]
+   },
+    {"tag": "redwine",
+     "patterns": ["Red wine", "Tell me about red wine", "What is red wine", "How is red wine made"],
+     "responses": ["The difference with red wine in contrast to white wine is that the skin of the wine is included in the fermentation process. This process is called 'maceration' and is responsible for extracting the colour and flavour of the wine. The longer the skin is included in the fermentation process dictates how strong the wine is, as well as how transparent it is. Red wine goes well with meaty dishes that has fat in them, as it flushes out the taste of the meat if you drink some red wine after eating meat."],
+     "context": [""]
+   },
+    {"tag": "whitewine",
+     "patterns": ["White wine", "What is white wine", "Tell me about white wine", "How is white wine made"],
+     "responses": ["White wine is clear in colour and quite transparent. In general, the skin of the grapes is not included in the fermentation process, which means the colour comes mostly from the fermented grape juice. Many white wines are actually made from red grapes, a style known as 'blanc de noir'. White wine usually goes well with dishes that do not have fat in them, such as chicken or fish."],
+     "context": [""]
+   },
+    {"tag": "orangewine",
+     "patterns": ["What is orange wine", "Orange wine", "Tell me about orange wine", "How is orange wine made"],
+     "responses": ["Orange wine is special in the way that it's made like red wine, where the skin is included, but the grape juice is made from white grapes. This is why orange wine has more of an orange tint to it's colour. Orange wine goes well with bold dishes such as curry dishes or Moroccan cuisine."],
+     "context": [""]
+   },
+    {"tag": "rosewine",
+     "patterns": ["What is rose wine", "Rose wine", "Tell me about rose wine", "How is rose wine made"],
+     "responses": ["Rose wine is similar to red wine in the sense that the skin is included in the fermentation process, but not long enough to be considered a red wine. It is possibly the oldest known wine to be made, as the skin contact method is the most straightforward. Rose wine pairs up well with dishes such as chicken salad or spinach tartelettes."],
+     "context": [""]
+   },
+    {"tag": "sparklywine",
+     "patterns": ["What is sparkly wine", "Sparkly wine", "How is sparkly wine made", "Tell me about sparkly wine"],
+     "responses": ["Sparkly wine is otherwise known as the party wine, is wine with carbon dioxide in it, which makes it fizzy. There are mainly two ways to make it, the first is the traditional method which is natural fermentation in a large tank that can withstand high pressure over a long period of time. The other method is to simply inject carbon dioxide in the wine, which is more commonly found in cheaper sparkling wines."],
+     "context": [""]
+   },
+    {"tag": "winetasting",
+     "patterns": ["How do I taste wine", "How to properly taste wine"],
+     "responses": ["Theoretically, the way you're supposed to taste wine is to first swirl your wine in your glass around to oxidize it a bit. Then, you smell the wine around the edge of your glass. Continuing onwards, you take a small and quick sip to get a general taste of the wine. Afterwards, flush your mouth out with water before taking a bigger sip and swirling it around above specific parts of your tongue, so that you use every taste bud to taste each different property of the wine."],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "Goodbye", "See you", "So long", "Farewell"],
+     "responses": ["Au revoir, friend.", "Till next time!", "Goodbye, thank you for your interest in wine."],
+     "context": [""]
+    },
+   {"tag": "thanks",
+    "patterns": ["Thank you", "Thank you for your help", "Much obliged", "Thanks"],
+    "responses": ["You're welcome", "No problem at all!", "Happy to help", "Anytime"],
+    "context": [""]
+   }
+ ]
+}
+    
+    
